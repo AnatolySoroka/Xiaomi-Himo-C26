@@ -1,0 +1,46 @@
+:root {
+    --black: #131313;
+    --white: #fff;
+    --grey: #6f6f6f;
+    --red: #ff4040;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-right: 73px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list-link {
+    display: block;
+    padding: 42px 20px;
+    text-transform: uppercase;
+    color: var(--black);
+    background-color: tranparent;
+    transition: all .3s ease;
+}
+
+.menu__list-link:hover {
+    color: var(--white);
+    background-color: var(--black);
+}
