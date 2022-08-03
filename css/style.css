@@ -31,12 +31,16 @@ body {
     display: flex;
 }
 
+.menu__list-item+.menu__list-item {
+    margin-left: 10px;
+}
+
 .menu__list-link {
     display: block;
     padding: 42px 20px;
     text-transform: uppercase;
     color: var(--black);
-    background-color: tranparent;
+    /* background-color: inherit; */
     transition: all .3s ease;
 }
 
