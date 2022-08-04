@@ -18,6 +18,9 @@ body {
     padding: 0 15px;
 }
 
+
+/* Header section */
+
 .header__inner {
     display: flex;
     justify-content: space-between;
@@ -47,4 +50,115 @@ body {
 .menu__list-link:hover {
     color: var(--white);
     background-color: var(--black);
+}
+
+
+/* Offer section */
+
+.offer {
+    padding-top: 97px;
+}
+
+.offer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: var(--black);
+    margin-bottom: 4px;
+    margin-top: 73px;
+}
+
+.offer__subtitle {
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--grey);
+    margin-bottom: 60px;
+}
+
+.offer__text {
+    max-width: 420px;
+    margin-block: 20px;
+}
+
+.offer__btn {
+    margin-top: 80px;
+}
+
+.btn {
+    display: inline-block;
+    letter-spacing: 1.1em;
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 28px 81px;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background-color: var(--red);
+}
+
+.offer__slider {
+    max-width: 50%;
+}
+
+.slider__items {
+    max-width: 630px;
+}
+
+.slider__items .slick-dots {
+    right: 0;
+    top: 40px;
+}
+
+.slick-dots {
+    position: absolute;
+}
+
+.slick-dots li button {
+    border: none;
+    font-size: 0;
+    background-color: var(--black);
+    width: 2px;
+    height: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 0;
+    margin-block: 5px;
+}
+
+li.slick-active button {
+    background-color: var(--red);
+}
+
+ul.offer__list {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offer__list-item {
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 58px;
+}
+
+.offer__list-title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.offer__list-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin: auto 0;
 }
