@@ -13,9 +13,9 @@ body {
 }
 
 .container {
-    max-width: 1230px;
+    max-width: 1220px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 
@@ -104,7 +104,7 @@ body {
 }
 
 .offer__slider {
-    max-width: 50%;
+    max-width: 570px;
 }
 
 .slider__items {
@@ -137,7 +137,7 @@ li.slick-active button {
 }
 
 ul.offer__list {
-    margin-top: 55px;
+    margin-top: 85px;
     display: flex;
     justify-content: space-around;
 }
