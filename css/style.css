@@ -162,3 +162,40 @@ ul.offer__list {
     line-height: 15px;
     margin: auto 0;
 }
+
+
+/* Description section */
+
+.description {
+    padding-top: 150px;
+}
+
+.description__inner {
+    display: flex;
+}
+
+.description__content {
+    max-width: 45%;
+}
+
+.description__img {
+    object-fit: cover;
+    margin-right: 60px;
+}
+
+.description__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.description__title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.description__text {
+    max-width: 450px;
+}
