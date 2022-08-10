@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 16.8px;
+    color: var(--black);
 }
 
 .container {
@@ -198,4 +199,40 @@ ul.offer__list {
 
 .description__text {
     max-width: 450px;
+}
+
+
+/* Characteristic section */
+
+.characteristic {
+    padding-top: 150px;
+}
+
+.characteristic__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 40px;
+}
+
+.characteristic__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    max-width: 570px;
+}
+
+.table__item-title {
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 3px 0 3px 2px;
+    margin: 10px 0 30px;
+}
+
+.characteristic__img {
+    align-self: center;
 }
