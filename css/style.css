@@ -236,3 +236,31 @@ table {
 .characteristic__img {
     align-self: center;
 }
+
+
+/* Galery section */
+
+.galery {
+    padding-top: 150px;
+}
+
+.galery__slider-items {
+    /* max-width: 1150px; */
+    margin-left: 50px;
+}
+
+.galery__slider-items img {
+    /* max-width: 100%; */
+}
+
+.galery__slider-items ul.slick-dots {
+    top: 0;
+    left: -50px;
+}
+
+
+/* Oreder section */
+
+.order {
+    padding-top: 150px;
+}
