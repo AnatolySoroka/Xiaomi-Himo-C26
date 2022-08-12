@@ -96,7 +96,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     text-transform: uppercase;
-    padding: 28px 81px;
+    padding: 28px 58px 28px 83px;
     transition: all .3s ease;
 }
 
@@ -249,10 +249,6 @@ table {
     margin-left: 50px;
 }
 
-.galery__slider-items img {
-    /* max-width: 100%; */
-}
-
 .galery__slider-items ul.slick-dots {
     top: 0;
     left: -50px;
@@ -263,4 +259,132 @@ table {
 
 .order {
     padding-top: 150px;
+    margin-bottom: 200px;
+}
+
+.order__inner {
+    position: relative;
+}
+
+.form {
+    max-width: 420px;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.form__input-text {
+    width: 298px;
+    margin-bottom: 30px;
+}
+
+.form__text {
+    margin-top: 20px;
+}
+
+.form__input-name,
+.form__input-phone {
+    border: none;
+    border-bottom: 1px solid var(--black);
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.form__input-name::placeholder,
+.form__input-phone::placeholder,
+.form__text {
+    color: var(--grey);
+    opacity: 0.5;
+}
+
+.form__bike {
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 0;
+}
+
+.form__bike-price {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    font-size: 32px;
+    width: 220px;
+    height: 100px;
+    border: 1px solid var(--red);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+}
+
+.form__bike-price::after {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    border: 1px solid var(--red);
+    border-radius: 50%;
+    top: 12px;
+    left: 0;
+}
+
+.form__label-radio {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+}
+
+.form__label-radio:checked+.form__bike {
+    display: block;
+}
+
+.form__radio-style {
+    width: 80px;
+    height: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.form__radio-style:hover {
+    transform: scale(1.10);
+}
+
+.form__label+.form__label {
+    margin-left: 23px;
+}
+
+.form__label-box {
+    display: flex;
+    margin: 10px 0 50px;
+}
+
+.form__radio-style--grey {
+    background-color: var(--grey);
+}
+
+.form__radio-style--white {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+}
+
+.form__radio-style--red {
+    background-color: var(--red);
+}
+
+.form__btn {
+    border: none;
+    cursor: pointer;
 }

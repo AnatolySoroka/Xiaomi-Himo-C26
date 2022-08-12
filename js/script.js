@@ -10,7 +10,7 @@ $(function() {
     $('.galery__slider-items').slick({
         arrows: false,
         dots: true,
-        // autoplay: true,
+        autoplay: true,
         vertical: true,
         verticalSwiping: true
     });
