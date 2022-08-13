@@ -462,3 +462,34 @@ table {
     font-size: 12px;
     line-height: 15px;
 }
+
+
+/* Adaptive */
+
+@media(max-width: 768px) {
+    .header__inner {
+        display: block;
+    }
+    .header__logo img {
+        margin: 0 auto;
+    }
+    .menu {
+        margin-right: 0;
+    }
+    .menu__list {
+        justify-content: space-evenly;
+    }
+    .menu__list-item+.menu__list-item {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 460px) {
+    .menu__list {
+        display: block;
+        text-align: center;
+    }
+    .menu__list-link {
+        padding: 20px 10px;
+    }
+}
