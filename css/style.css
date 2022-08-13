@@ -388,3 +388,73 @@ table {
     border: none;
     cursor: pointer;
 }
+
+
+/* Footer section */
+
+.footer {
+    background-color: var(--black);
+    padding: 25px 0;
+}
+
+.footer a {
+    color: var(--white);
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credits {
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+
+.social__items {
+    margin: 0 14px;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.phone-link {
+    margin-bottom: 20px;
+    padding-left: 34px;
+}
+
+.phone-link::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/phone-icon.svg');
+    left: 0;
+    top: -5px;
+}
+
+.email-link {
+    padding-left: 34px;
+}
+
+.email-link::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/email-icon.svg');
+    left: 0;
+    top: 30px;
+}
+
+.footer__contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
