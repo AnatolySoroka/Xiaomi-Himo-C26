@@ -491,6 +491,31 @@ table {
     .offer__text {
         margin: 20px auto;
     }
+    .description__inner {
+        display: block;
+    }
+    
+    .description {
+        padding-top: 30px;
+    }
+    .description__img,
+    .description__content {
+        margin: 0 auto;
+    }
+
+    .description__img {
+        max-width: 100%;
+    }
+    .description__content {
+        text-align: center;
+        max-width: 100%;
+    }
+    .description__text {
+        max-width: 100%;
+    }
+    .description__list-item {
+        margin-top: 30px;
+    }
 }
 
 @media(max-width: 768px) {
