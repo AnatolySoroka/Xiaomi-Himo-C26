@@ -479,6 +479,19 @@ table {
     .offer__slider {
         margin: 30px auto;
     }
+    .characteristic__inner {
+        display: block;
+    }
+    .characteristic__title {
+        text-align: center;
+    }
+    table {
+        margin: 0 auto;
+    }
+    .characteristic__img img {
+        margin: 0 auto;
+        /* width: 100%; */
+    }
 }
 
 @media(max-width: 935px) {
@@ -551,6 +564,15 @@ table {
     }
     .offer__slider {
         margin: 30px auto;
+    }
+    .characteristic {
+        padding-top: 80px;
+    }
+}
+
+@media(max-width: 600px) {
+    .characteristic__img img {
+        width: 100%;
     }
 }
 
