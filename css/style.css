@@ -549,6 +549,7 @@ table {
 
     .order {
         padding-top: 60px;
+        padding-bottom: 350px;
     }
 }
 
@@ -666,6 +667,12 @@ table {
         top: 0;
         left: -30px;
     }
+    .footer__inner {
+        flex-direction: column;
+    }
+    .footer__social {
+        margin: 20px 0;
+    }
 }
 
 @media(max-width: 460px) {
@@ -707,5 +714,8 @@ table {
     }
     .form__bike-price {
         left: 12%;
+    }
+    .order {
+        padding-bottom: 200px;
     }
 }
